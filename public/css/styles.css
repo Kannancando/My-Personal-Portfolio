@@ -58,3 +58,12 @@ body {
     height: 100%;
     object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: none;
+    background-color: bisque;
+  }
