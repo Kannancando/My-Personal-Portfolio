@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
-
 // Replace 'mongodb://localhost/your-database' with your actual MongoDB connection string
-const dbURI = "mongodb://myuser:mypassword@localhost:27017/myprofile";
+const dbURI = "mongodb+srv://yeskaykannan:TuWVT4FaJGVWc4LV@cluster0.cwd9lx4.mongodb.net/?retryWrites=true&w=majority";
 
 
 mongoose.connect(dbURI, {dbName: 'myprofile', // Specify your database name here
